@@ -39,7 +39,10 @@ sage-protocol/
 ├── README.ru.md           # Документация на Русском
 ├── spec/
 │   ├── sage-protocol-v1.0-draft-02-en.md  # 协议规范（English）
-│   └── sage-protocol-v1.0-draft-02-zh.md  # 协议规范（中文）
+│   ├── sage-protocol-v1.0-draft-02-zh.md  # 协议规范（中文）
+│   ├── sage-protocol-v1.0-draft-02-es.md  # 协议规范（Español）
+│   ├── sage-protocol-v1.0-draft-02-ar.md  # 协议规范（العربية）
+│   └── sage-protocol-v1.0-draft-02-ru.md  # 协议规范（Русский）
 ├── skill/
 │   ├── sage-skill-v1.0.0-en.md            # Ready-to-use Skill (English)
 │   ├── sage-skill-v1.0.0-zh.md            # 可直接使用的 Skill（中文）
@@ -127,6 +130,9 @@ prompt: 展示摘要并在预订前获得用户明确确认。
 |------|------|------|
 | [Protocol Spec (EN)](spec/sage-protocol-v1.0-draft-02-en.md) | v1.0 Draft 02 | Experimental |
 | [协议规范 (ZH)](spec/sage-protocol-v1.0-draft-02-zh.md) | v1.0 Draft 02 | 实验性 |
+| [Especificación (ES)](spec/sage-protocol-v1.0-draft-02-es.md) | v1.0 Draft 02 | Experimental |
+| [المواصفات (AR)](spec/sage-protocol-v1.0-draft-02-ar.md) | v1.0 Draft 02 | تجريبي |
+| [Спецификация (RU)](spec/sage-protocol-v1.0-draft-02-ru.md) | v1.0 Draft 02 | Экспериментальный |
 | [Skill (EN)](skill/sage-skill-v1.0.0-en.md) | 1.0.0 | Ready-to-use |
 | [Skill (ZH)](skill/sage-skill-v1.0.0-zh.md) | 1.0.0 | 可直接使用 |
 

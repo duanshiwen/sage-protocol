@@ -32,14 +32,17 @@ graph LR
 
 ```
 sage-protocol/
-├── README.md              # English
-├── README.zh-CN.md        # 中文
+├── README.md              # 中文（默认）
+├── README.en.md           # English
 ├── README.es.md           # Este archivo
 ├── README.ar.md           # العربية
 ├── README.ru.md           # Русский
 ├── spec/
 │   ├── sage-protocol-v1.0-draft-02-en.md
-│   └── sage-protocol-v1.0-draft-02-zh.md
+│   ├── sage-protocol-v1.0-draft-02-zh.md
+│   ├── sage-protocol-v1.0-draft-02-es.md
+│   ├── sage-protocol-v1.0-draft-02-ar.md
+│   └── sage-protocol-v1.0-draft-02-ru.md
 ├── skill/
 │   ├── sage-skill-v1.0.0-en.md     # Skill (English)
 │   ├── sage-skill-v1.0.0-zh.md     # Skill (中文)
@@ -53,14 +56,14 @@ sage-protocol/
 
 ### Para Proveedores de Servicios
 
-1. Lee la [especificación](spec/sage-protocol-v1.0-draft-02-en.md)
+1. Lee la [especificación](spec/sage-protocol-v1.0-draft-02-es.md)
 2. Detecta `X-SAGE-Version` en las solicitudes entrantes
 3. Devuelve un Documento de Descripción SAGE con el encabezado `X-SAGE-Format: true`
 4. Tus API existentes permanecen sin cambios
 
 ### Para Desarrolladores de Agentes (Cliente Nativo)
 
-1. Lee la [especificación](spec/sage-protocol-v1.0-draft-02-en.md)
+1. Lee la [especificación](spec/sage-protocol-v1.0-draft-02-es.md)
 2. Envía los encabezados `X-SAGE-Version` y `X-Agent-Public-Key`
 3. Analiza el Documento de Descripción devuelto
 4. Ejecuta flujos de trabajo con autorización del usuario

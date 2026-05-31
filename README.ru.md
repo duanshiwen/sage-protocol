@@ -32,14 +32,17 @@ graph LR
 
 ```
 sage-protocol/
-├── README.md              # English
-├── README.zh-CN.md        # 中文
+├── README.md              # 中文（默认）
+├── README.en.md           # English
 ├── README.es.md           # Español
 ├── README.ar.md           # العربية
 ├── README.ru.md           # Этот файл
 ├── spec/
 │   ├── sage-protocol-v1.0-draft-02-en.md
-│   └── sage-protocol-v1.0-draft-02-zh.md
+│   ├── sage-protocol-v1.0-draft-02-zh.md
+│   ├── sage-protocol-v1.0-draft-02-es.md
+│   ├── sage-protocol-v1.0-draft-02-ar.md
+│   └── sage-protocol-v1.0-draft-02-ru.md
 ├── skill/
 │   ├── sage-skill-v1.0.0-en.md     # Skill (English)
 │   ├── sage-skill-v1.0.0-zh.md     # Skill (中文)
@@ -53,14 +56,14 @@ sage-protocol/
 
 ### Для поставщиков сервисов
 
-1. Прочитайте [спецификацию](spec/sage-protocol-v1.0-draft-02-en.md)
+1. Прочитайте [спецификацию](spec/sage-protocol-v1.0-draft-02-ru.md)
 2. Обнаруживайте `X-SAGE-Version` во входящих запросах
 3. Возвращайте документ описания SAGE с заголовком `X-SAGE-Format: true`
 4. Ваши существующие API остаются без изменений
 
 ### Для разработчиков агентов (нативный клиент)
 
-1. Прочитайте [спецификацию](spec/sage-protocol-v1.0-draft-02-en.md)
+1. Прочитайте [спецификацию](spec/sage-protocol-v1.0-draft-02-ru.md)
 2. Отправляйте заголовки `X-SAGE-Version` и `X-Agent-Public-Key`
 3. Анализируйте возвращённый документ описания
 4. Выполняйте рабочие процессы с авторизацией пользователя

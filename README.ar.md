@@ -32,14 +32,17 @@ graph LR
 
 ```
 sage-protocol/
-├── README.md              # English
-├── README.zh-CN.md        # 中文
+├── README.md              # 中文（默认）
+├── README.en.md           # English
 ├── README.es.md           # Español
 ├── README.ar.md           # هذا الملف
 ├── README.ru.md           # Русский
 ├── spec/
 │   ├── sage-protocol-v1.0-draft-02-en.md
-│   └── sage-protocol-v1.0-draft-02-zh.md
+│   ├── sage-protocol-v1.0-draft-02-zh.md
+│   ├── sage-protocol-v1.0-draft-02-es.md
+│   ├── sage-protocol-v1.0-draft-02-ar.md
+│   └── sage-protocol-v1.0-draft-02-ru.md
 ├── skill/
 │   ├── sage-skill-v1.0.0-en.md     # Skill (English)
 │   ├── sage-skill-v1.0.0-zh.md     # Skill (中文)
@@ -53,14 +56,14 @@ sage-protocol/
 
 ### لمزودي الخدمات
 
-1. اقرأ [المواصفات](spec/sage-protocol-v1.0-draft-02-en.md)
+1. اقرأ [المواصفات](spec/sage-protocol-v1.0-draft-02-ar.md)
 2. اكتشف `X-SAGE-Version` في الطلبات الواردة
 3. أعد وثيقة وصف SAGE مع ترويسة `X-SAGE-Format: true`
 4. واجهات برمجة التطبيقات الحالية تبقى كما هي
 
 ### لمطوري العملاء الذكيين (عميل أصلي)
 
-1. اقرأ [المواصفات](spec/sage-protocol-v1.0-draft-02-en.md)
+1. اقرأ [المواصفات](spec/sage-protocol-v1.0-draft-02-ar.md)
 2. أرسل ترويسات `X-SAGE-Version` و `X-Agent-Public-Key`
 3. حلل وثيقة الوصف المُعادة
 4. نفذ سير العمل بتفويض المستخدم

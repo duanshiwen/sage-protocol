@@ -2,7 +2,7 @@
 
 **Server-Agent Gateway Engine** — A service-facing interface description protocol for autonomous or semi-autonomous software agents.
 
-[中文文档](README.zh-CN.md)
+[中文](README.zh-CN.md) · [Español](README.es.md) · [العربية](README.ar.md) · [Русский](README.ru.md)
 
 ---
 
@@ -32,14 +32,20 @@ graph LR
 
 ```
 sage-protocol/
-├── README.md                              # This file
-├── README.zh-CN.md                        # 中文文档
+├── README.md              # This file
+├── README.zh-CN.md        # 中文文档
+├── README.es.md           # Documentación en Español
+├── README.ar.md           # التوثيق بالعربية
+├── README.ru.md           # Документация на Русском
 ├── spec/
 │   ├── sage-protocol-v1.0-draft-02-en.md  # Protocol specification (English)
 │   └── sage-protocol-v1.0-draft-02-zh.md  # 协议规范（中文）
 ├── skill/
 │   ├── sage-skill-v1.0.0-en.md            # Ready-to-use Skill (English)
-│   └── sage-skill-v1.0.0-zh.md            # 可直接使用的 Skill（中文）
+│   ├── sage-skill-v1.0.0-zh.md            # 可直接使用的 Skill（中文）
+│   ├── sage-skill-v1.0.0-es.md            # Skill listo para usar (Español)
+│   ├── sage-skill-v1.0.0-ar.md            # مهارة جاهزة للاستخدام (العربية)
+│   └── sage-skill-v1.0.0-ru.md            # Готовый к использованию навык (Русский)
 └── LICENSE
 ```
 
@@ -63,7 +69,8 @@ sage-protocol/
 
 If your Agent Runtime doesn't have native SAGE support:
 
-1. Copy the [Skill file](skill/sage-skill-v1.0.0-en.md) into your Agent's Skill/instruction mechanism
+1. Copy the Skill file into your Agent's Skill/instruction mechanism:
+   - [English](skill/sage-skill-v1.0.0-en.md) · [中文](skill/sage-skill-v1.0.0-zh.md) · [Español](skill/sage-skill-v1.0.0-es.md) · [العربية](skill/sage-skill-v1.0.0-ar.md) · [Русский](skill/sage-skill-v1.0.0-ru.md)
 2. The Skill teaches your Agent how to discover, parse, and execute SAGE interactions
 3. Works with any LLM-based Agent that supports tool calling or HTTP access
 

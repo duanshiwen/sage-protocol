@@ -2,7 +2,7 @@
 
 **服务端-智能体网关引擎（Server-Agent Gateway Engine）** — 面向自主或半自主软件智能体的服务端接口描述协议。
 
-[English](README.md)
+[English](README.md) · [Español](README.es.md) · [العربية](README.ar.md) · [Русский](README.ru.md)
 
 ---
 
@@ -32,14 +32,20 @@ graph LR
 
 ```
 sage-protocol/
-├── README.md                              # 英文文档
-├── README.zh-CN.md                        # 本文件
+├── README.md              # English
+├── README.zh-CN.md        # 本文件
+├── README.es.md           # Documentación en Español
+├── README.ar.md           # التوثيق بالعربية
+├── README.ru.md           # Документация на Русском
 ├── spec/
 │   ├── sage-protocol-v1.0-draft-02-en.md  # 协议规范（English）
 │   └── sage-protocol-v1.0-draft-02-zh.md  # 协议规范（中文）
 ├── skill/
-│   ├── sage-skill-v1.0.0-en.md            # 可直接使用的 Skill（English）
-│   └── sage-skill-v1.0.0-zh.md            # 可直接使用的 Skill（中文）
+│   ├── sage-skill-v1.0.0-en.md            # Ready-to-use Skill (English)
+│   ├── sage-skill-v1.0.0-zh.md            # 可直接使用的 Skill（中文）
+│   ├── sage-skill-v1.0.0-es.md            # Skill listo para usar (Español)
+│   ├── sage-skill-v1.0.0-ar.md            # مهارة جاهزة للاستخدام (العربية)
+│   └── sage-skill-v1.0.0-ru.md            # Готовый к использованию навык (Русский)
 └── LICENSE
 ```
 
@@ -63,7 +69,8 @@ sage-protocol/
 
 如果你的智能体运行时没有原生 SAGE 支持：
 
-1. 将 [Skill 文件](skill/sage-skill-v1.0.0-zh.md) 复制到你的智能体的 Skill/指令集机制中
+1. 将 Skill 文件复制到你的智能体的 Skill/指令集机制中：
+   - [English](skill/sage-skill-v1.0.0-en.md) · [中文](skill/sage-skill-v1.0.0-zh.md) · [Español](skill/sage-skill-v1.0.0-es.md) · [العربية](skill/sage-skill-v1.0.0-ar.md) · [Русский](skill/sage-skill-v1.0.0-ru.md)
 2. Skill 会教会你的智能体如何发现、解析和执行 SAGE 交互
 3. 适用于任何支持工具调用或 HTTP 访问的基于 LLM 的智能体
 

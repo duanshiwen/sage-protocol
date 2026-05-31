@@ -2,7 +2,7 @@
 
 **Server-Agent Gateway Engine** — Un protocolo de descripción de interfaz orientado al servicio para agentes de software autónomos o semiautónomos.
 
-[English](README.md) · [中文](README.zh-CN.md) · [العربية](README.ar.md) · [Русский](README.ru.md)
+[English](README.en.md) · [中文](README.md) · [العربية](README.ar.md) · [Русский](README.ru.md)
 
 ---
 

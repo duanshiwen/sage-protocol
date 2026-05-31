@@ -2,7 +2,7 @@
 
 **محرك بوابة الخادم-العميل الذكي (Server-Agent Gateway Engine)** — بروتوكول وصف واجهة موجه للخدمة للعملاء الذكيين المستقلين أو شبه المستقلين.
 
-[English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [Русский](README.ru.md)
+[English](README.en.md) · [中文](README.md) · [Español](README.es.md) · [Русский](README.ru.md)
 
 ---
 

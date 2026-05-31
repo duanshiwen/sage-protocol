@@ -2,7 +2,7 @@
 
 **Server-Agent Gateway Engine** — Сервисно-ориентированный протокол описания интерфейса для автономных или полуавтономных программных агентов.
 
-[English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [العربية](README.ar.md)
+[English](README.en.md) · [中文](README.md) · [Español](README.es.md) · [العربية](README.ar.md)
 
 ---
 
